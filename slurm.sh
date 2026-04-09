@@ -7,4 +7,4 @@
 #SBATCH --mem=16G
 module load python/3.13.1
 source RM_env/bin/activate
-python ./Pytorch_Implementation.py
+python ./main.py

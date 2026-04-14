@@ -1,0 +1,135 @@
+2026-04-14 13:42:19,669 - loading projection weights from GoogleNews-vectors-negative300.bin
+2026-04-14 13:42:35,511 - KeyedVectors lifecycle event {'msg': 'loaded (3000000, 300) matrix of type float32 from GoogleNews-vectors-negative300.bin', 'binary': True, 'encoding': 'utf8', 'datetime': '2026-04-14T13:42:35.478083', 'gensim': '4.4.0', 'python': '3.9.25 (main, Nov 10 2025, 00:00:00) \n[GCC 11.5.0 20240719 (Red Hat 11.5.0-11)]', 'platform': 'Linux-5.14.0-611.24.1.el9_7.x86_64-x86_64-with-glibc2.34', 'event': 'load_word2vec_format'}
+2026-04-14 13:42:44,771 - Logistic regression model training starting...
+2026-04-14 13:42:44,772 - ------------------------------
+2026-04-14 13:42:45,554 - Epoch [1/250] | Training Loss: 0.6817 | Dev Acc: 0.5762
+2026-04-14 13:42:46,219 - Epoch [2/250] | Training Loss: 0.6761 | Dev Acc: 0.5762
+2026-04-14 13:42:46,856 - Epoch [3/250] | Training Loss: 0.6723 | Dev Acc: 0.5762
+2026-04-14 13:42:47,488 - Epoch [4/250] | Training Loss: 0.6685 | Dev Acc: 0.5762
+2026-04-14 13:42:48,123 - Epoch [5/250] | Training Loss: 0.6648 | Dev Acc: 0.5767
+2026-04-14 13:42:48,772 - Epoch [6/250] | Training Loss: 0.6613 | Dev Acc: 0.5765
+2026-04-14 13:42:49,407 - Epoch [7/250] | Training Loss: 0.6579 | Dev Acc: 0.5773
+2026-04-14 13:42:50,071 - Epoch [8/250] | Training Loss: 0.6546 | Dev Acc: 0.5798
+2026-04-14 13:42:50,713 - Epoch [9/250] | Training Loss: 0.6514 | Dev Acc: 0.5817
+2026-04-14 13:42:51,364 - Epoch [10/250] | Training Loss: 0.6483 | Dev Acc: 0.5841
+2026-04-14 13:42:52,006 - Epoch [11/250] | Training Loss: 0.6452 | Dev Acc: 0.5921
+2026-04-14 13:42:52,654 - Epoch [12/250] | Training Loss: 0.6423 | Dev Acc: 0.5943
+2026-04-14 13:42:53,303 - Epoch [13/250] | Training Loss: 0.6395 | Dev Acc: 0.5981
+2026-04-14 13:42:53,957 - Epoch [14/250] | Training Loss: 0.6367 | Dev Acc: 0.6156
+2026-04-14 13:42:54,599 - Epoch [15/250] | Training Loss: 0.6340 | Dev Acc: 0.6172
+2026-04-14 13:42:55,241 - Epoch [16/250] | Training Loss: 0.6313 | Dev Acc: 0.6358
+2026-04-14 13:42:55,915 - Epoch [17/250] | Training Loss: 0.6288 | Dev Acc: 0.6317
+2026-04-14 13:42:56,555 - Epoch [18/250] | Training Loss: 0.6263 | Dev Acc: 0.6323
+2026-04-14 13:42:57,193 - Epoch [19/250] | Training Loss: 0.6239 | Dev Acc: 0.6468
+2026-04-14 13:42:57,842 - Epoch [20/250] | Training Loss: 0.6215 | Dev Acc: 0.6670
+2026-04-14 13:42:58,486 - Epoch [21/250] | Training Loss: 0.6192 | Dev Acc: 0.6596
+2026-04-14 13:42:59,124 - Epoch [22/250] | Training Loss: 0.6170 | Dev Acc: 0.6616
+2026-04-14 13:42:59,762 - Epoch [23/250] | Training Loss: 0.6148 | Dev Acc: 0.6714
+2026-04-14 13:43:00,408 - Epoch [24/250] | Training Loss: 0.6127 | Dev Acc: 0.6755
+2026-04-14 13:43:01,050 - Epoch [25/250] | Training Loss: 0.6106 | Dev Acc: 0.6807
+2026-04-14 13:43:01,694 - Epoch [26/250] | Training Loss: 0.6086 | Dev Acc: 0.6889
+2026-04-14 13:43:02,339 - Epoch [27/250] | Training Loss: 0.6066 | Dev Acc: 0.6903
+2026-04-14 13:43:02,979 - Epoch [28/250] | Training Loss: 0.6046 | Dev Acc: 0.6906
+2026-04-14 13:43:03,617 - Epoch [29/250] | Training Loss: 0.6027 | Dev Acc: 0.7064
+2026-04-14 13:43:04,257 - Epoch [30/250] | Training Loss: 0.6009 | Dev Acc: 0.7108
+2026-04-14 13:43:04,897 - Epoch [31/250] | Training Loss: 0.5991 | Dev Acc: 0.7021
+2026-04-14 13:43:05,529 - Epoch [32/250] | Training Loss: 0.5973 | Dev Acc: 0.7042
+2026-04-14 13:43:06,158 - Epoch [33/250] | Training Loss: 0.5956 | Dev Acc: 0.7138
+2026-04-14 13:43:06,796 - Epoch [34/250] | Training Loss: 0.5939 | Dev Acc: 0.7193
+2026-04-14 13:43:07,428 - Epoch [35/250] | Training Loss: 0.5923 | Dev Acc: 0.7196
+2026-04-14 13:43:08,058 - Epoch [36/250] | Training Loss: 0.5906 | Dev Acc: 0.7196
+2026-04-14 13:43:08,681 - Epoch [37/250] | Training Loss: 0.5890 | Dev Acc: 0.7256
+2026-04-14 13:43:09,310 - Epoch [38/250] | Training Loss: 0.5875 | Dev Acc: 0.7278
+2026-04-14 13:43:09,941 - Epoch [39/250] | Training Loss: 0.5859 | Dev Acc: 0.7346
+2026-04-14 13:43:10,571 - Epoch [40/250] | Training Loss: 0.5844 | Dev Acc: 0.7357
+2026-04-14 13:43:11,200 - Epoch [41/250] | Training Loss: 0.5830 | Dev Acc: 0.7343
+2026-04-14 13:43:11,828 - Epoch [42/250] | Training Loss: 0.5815 | Dev Acc: 0.7332
+2026-04-14 13:43:12,454 - Epoch [43/250] | Training Loss: 0.5802 | Dev Acc: 0.7368
+2026-04-14 13:43:13,093 - Epoch [44/250] | Training Loss: 0.5787 | Dev Acc: 0.7363
+2026-04-14 13:43:13,720 - Epoch [45/250] | Training Loss: 0.5774 | Dev Acc: 0.7368
+2026-04-14 13:43:14,346 - Epoch [46/250] | Training Loss: 0.5760 | Dev Acc: 0.7390
+2026-04-14 13:43:14,967 - Epoch [47/250] | Training Loss: 0.5747 | Dev Acc: 0.7360
+2026-04-14 13:43:15,587 - Epoch [48/250] | Training Loss: 0.5735 | Dev Acc: 0.7365
+2026-04-14 13:43:16,211 - Epoch [49/250] | Training Loss: 0.5722 | Dev Acc: 0.7428
+2026-04-14 13:43:16,839 - Epoch [50/250] | Training Loss: 0.5710 | Dev Acc: 0.7425
+2026-04-14 13:43:17,462 - Epoch [51/250] | Training Loss: 0.5698 | Dev Acc: 0.7442
+2026-04-14 13:43:18,096 - Epoch [52/250] | Training Loss: 0.5686 | Dev Acc: 0.7404
+2026-04-14 13:43:18,718 - Epoch [53/250] | Training Loss: 0.5674 | Dev Acc: 0.7466
+2026-04-14 13:43:19,347 - Epoch [54/250] | Training Loss: 0.5662 | Dev Acc: 0.7420
+2026-04-14 13:43:19,973 - Epoch [55/250] | Training Loss: 0.5651 | Dev Acc: 0.7477
+2026-04-14 13:43:20,609 - Epoch [56/250] | Training Loss: 0.5640 | Dev Acc: 0.7461
+2026-04-14 13:43:21,235 - Epoch [57/250] | Training Loss: 0.5629 | Dev Acc: 0.7502
+2026-04-14 13:43:21,872 - Epoch [58/250] | Training Loss: 0.5619 | Dev Acc: 0.7516
+2026-04-14 13:43:22,506 - Epoch [59/250] | Training Loss: 0.5608 | Dev Acc: 0.7502
+2026-04-14 13:43:23,133 - Epoch [60/250] | Training Loss: 0.5597 | Dev Acc: 0.7516
+2026-04-14 13:43:23,757 - Epoch [61/250] | Training Loss: 0.5587 | Dev Acc: 0.7524
+2026-04-14 13:43:24,390 - Epoch [62/250] | Training Loss: 0.5577 | Dev Acc: 0.7565
+2026-04-14 13:43:25,022 - Epoch [63/250] | Training Loss: 0.5567 | Dev Acc: 0.7516
+2026-04-14 13:43:25,650 - Epoch [64/250] | Training Loss: 0.5557 | Dev Acc: 0.7524
+2026-04-14 13:43:26,278 - Epoch [65/250] | Training Loss: 0.5547 | Dev Acc: 0.7538
+2026-04-14 13:43:26,907 - Epoch [66/250] | Training Loss: 0.5538 | Dev Acc: 0.7570
+2026-04-14 13:43:27,541 - Epoch [67/250] | Training Loss: 0.5529 | Dev Acc: 0.7521
+2026-04-14 13:43:28,172 - Epoch [68/250] | Training Loss: 0.5519 | Dev Acc: 0.7570
+2026-04-14 13:43:28,799 - Epoch [69/250] | Training Loss: 0.5510 | Dev Acc: 0.7576
+2026-04-14 13:43:29,428 - Epoch [70/250] | Training Loss: 0.5501 | Dev Acc: 0.7581
+2026-04-14 13:43:30,055 - Epoch [71/250] | Training Loss: 0.5493 | Dev Acc: 0.7576
+2026-04-14 13:43:30,677 - Epoch [72/250] | Training Loss: 0.5484 | Dev Acc: 0.7576
+2026-04-14 13:43:31,298 - Epoch [73/250] | Training Loss: 0.5475 | Dev Acc: 0.7579
+2026-04-14 13:43:31,920 - Epoch [74/250] | Training Loss: 0.5467 | Dev Acc: 0.7576
+2026-04-14 13:43:32,541 - Epoch [75/250] | Training Loss: 0.5458 | Dev Acc: 0.7584
+2026-04-14 13:43:33,170 - Epoch [76/250] | Training Loss: 0.5450 | Dev Acc: 0.7576
+2026-04-14 13:43:33,793 - Epoch [77/250] | Training Loss: 0.5442 | Dev Acc: 0.7592
+2026-04-14 13:43:34,423 - Epoch [78/250] | Training Loss: 0.5434 | Dev Acc: 0.7595
+2026-04-14 13:43:35,051 - Epoch [79/250] | Training Loss: 0.5426 | Dev Acc: 0.7603
+2026-04-14 13:43:35,679 - Epoch [80/250] | Training Loss: 0.5418 | Dev Acc: 0.7603
+2026-04-14 13:43:36,302 - Epoch [81/250] | Training Loss: 0.5411 | Dev Acc: 0.7601
+2026-04-14 13:43:36,924 - Epoch [82/250] | Training Loss: 0.5403 | Dev Acc: 0.7603
+2026-04-14 13:43:37,545 - Epoch [83/250] | Training Loss: 0.5395 | Dev Acc: 0.7601
+2026-04-14 13:43:38,167 - Epoch [84/250] | Training Loss: 0.5388 | Dev Acc: 0.7614
+2026-04-14 13:43:38,796 - Epoch [85/250] | Training Loss: 0.5380 | Dev Acc: 0.7622
+2026-04-14 13:43:39,424 - Epoch [86/250] | Training Loss: 0.5373 | Dev Acc: 0.7603
+2026-04-14 13:43:40,045 - Epoch [87/250] | Training Loss: 0.5366 | Dev Acc: 0.7601
+2026-04-14 13:43:40,667 - Epoch [88/250] | Training Loss: 0.5359 | Dev Acc: 0.7620
+2026-04-14 13:43:41,292 - Epoch [89/250] | Training Loss: 0.5352 | Dev Acc: 0.7622
+2026-04-14 13:43:41,915 - Epoch [90/250] | Training Loss: 0.5345 | Dev Acc: 0.7622
+2026-04-14 13:43:41,915 - Early stopping triggered at epoch 90.
+2026-04-14 13:43:41,915 - TRAINING COMPLETE
+2026-04-14 13:43:41,915 - ------------------------------
+2026-04-14 13:43:41,915 - Best Dev Acc: 0.7622
+2026-04-14 13:43:41,915 - Best Model saved to best_logistic_model.pth
+2026-04-14 13:43:41,915 - ------------------------------
+2026-04-14 13:43:41,929 - Transformer encoder model training starting...
+2026-04-14 13:43:41,929 - ------------------------------
+2026-04-14 13:44:35,816 - Epoch [1/50] | Training Loss: 0.6394 | Dev Acc: 0.6684
+2026-04-14 13:45:26,236 - Epoch [2/50] | Training Loss: 0.5030 | Dev Acc: 0.7562
+2026-04-14 13:46:19,973 - Epoch [3/50] | Training Loss: 0.4716 | Dev Acc: 0.7904
+2026-04-14 13:47:12,223 - Epoch [4/50] | Training Loss: 0.4563 | Dev Acc: 0.7910
+2026-04-14 13:48:07,787 - Epoch [5/50] | Training Loss: 0.4497 | Dev Acc: 0.7505
+2026-04-14 13:49:03,941 - Epoch [6/50] | Training Loss: 0.4364 | Dev Acc: 0.7899
+2026-04-14 13:49:55,661 - Epoch [7/50] | Training Loss: 0.4262 | Dev Acc: 0.8041
+2026-04-14 13:50:50,082 - Epoch [8/50] | Training Loss: 0.4191 | Dev Acc: 0.7860
+2026-04-14 13:51:46,237 - Epoch [9/50] | Training Loss: 0.4113 | Dev Acc: 0.8027
+2026-04-14 13:52:39,377 - Epoch [10/50] | Training Loss: 0.4059 | Dev Acc: 0.8096
+2026-04-14 13:53:31,249 - Epoch [11/50] | Training Loss: 0.3970 | Dev Acc: 0.8120
+2026-04-14 13:54:22,592 - Epoch [12/50] | Training Loss: 0.3891 | Dev Acc: 0.8055
+2026-04-14 13:55:16,017 - Epoch [13/50] | Training Loss: 0.3880 | Dev Acc: 0.8161
+2026-04-14 13:56:12,893 - Epoch [14/50] | Training Loss: 0.3851 | Dev Acc: 0.8071
+2026-04-14 13:57:05,637 - Epoch [15/50] | Training Loss: 0.3782 | Dev Acc: 0.8161
+2026-04-14 13:58:01,426 - Epoch [16/50] | Training Loss: 0.3762 | Dev Acc: 0.7929
+2026-04-14 13:58:59,637 - Epoch [17/50] | Training Loss: 0.3711 | Dev Acc: 0.8175
+2026-04-14 13:59:53,302 - Epoch [18/50] | Training Loss: 0.3681 | Dev Acc: 0.8211
+2026-04-14 14:00:48,910 - Epoch [19/50] | Training Loss: 0.3632 | Dev Acc: 0.8254
+2026-04-14 14:01:43,949 - Epoch [20/50] | Training Loss: 0.3609 | Dev Acc: 0.8219
+2026-04-14 14:02:34,544 - Epoch [21/50] | Training Loss: 0.3561 | Dev Acc: 0.8202
+2026-04-14 14:03:30,632 - Epoch [22/50] | Training Loss: 0.3539 | Dev Acc: 0.8137
+2026-04-14 14:04:23,529 - Epoch [23/50] | Training Loss: 0.3500 | Dev Acc: 0.8200
+2026-04-14 14:05:19,316 - Epoch [24/50] | Training Loss: 0.3447 | Dev Acc: 0.8200
+2026-04-14 14:05:19,317 - Early stopping triggered at epoch 24.
+2026-04-14 14:05:19,317 - TRAINING COMPLETE
+2026-04-14 14:05:19,317 - ------------------------------
+2026-04-14 14:05:19,317 - Best Dev Acc: 0.8254
+2026-04-14 14:05:19,317 - Best Model saved to best_transformer_encoder.pth
+2026-04-14 14:05:19,317 - ------------------------------
+2026-04-14 14:05:27,954 - Logistic Regression Model AUC: 0.8447
+2026-04-14 14:05:27,955 - Encoder Transformer Model AUC: 0.9095
+2026-04-14 14:05:27,955 - P-value: 0.0000

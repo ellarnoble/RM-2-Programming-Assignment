@@ -31,8 +31,8 @@ Both model's training logic implements early stopping, using the development set
 - Model 2: 82.54% (24 epochs)
 
 AUC scores were generated using the test set for both models: 
-- Model 1: 0.8457
-- Model 2: 0.9093
+- Model 1: 0.8447
+- Model 2: 0.9095
 
 P-value: < 0.0001
 
